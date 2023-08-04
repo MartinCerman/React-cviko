@@ -1,0 +1,24 @@
+.task-container p,
+h2 {
+  color: indianred;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.task-container,
+.task-container > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.task-container > form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.planning-btn {
+  background-color: red;
+}

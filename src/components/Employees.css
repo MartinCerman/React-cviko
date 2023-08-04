@@ -1,0 +1,62 @@
+.employees-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.employees-list {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.employees-list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 3px;
+    border: solid black 1px;
+    background-color: darksalmon;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.employees-list li:nth-child(even){
+    background-color: black;
+    color: antiquewhite;
+}
+
+.remove-button {
+    color: red;
+    margin-left: 1rem;
+    font-size: 25px;
+}
+
+.employees-container form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: solid black 1px;
+}
+
+.employees-container .inputs-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.5rem;
+}
+
+.employees-container .inputs-container > * {
+    margin-bottom: 0.5rem;
+}
+
+.employees-container button[type="submit"] {
+    display: inline-block;
+    background-color: black;
+    color: antiquewhite;
+    font-weight: bold;
+    width: 166px;
+    border: none;
+    cursor: pointer;
+}
